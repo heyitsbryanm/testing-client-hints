@@ -6,8 +6,13 @@
   package = "netlify-plugin-cypress"
 
 [[headers]]
-  for = "/*"
+  for = "/imgix"
   [headers.values]
-  accept-ch = "sec-ch-viewport-width, sec-ch-width, sec-ch-dpr, ect"
-  link = "<https://4blf1emx.cdn.imgeng.in/>; rel=preconnect"
-  permissions-policy = ''' ch-viewport-width=("https://4blf1emx.cdn.imgeng.in"), ch-width=("https://4blf1emx.cdn.imgeng.in"), ch-dpr=("https://4blf1emx.cdn.imgeng.in"), ect=("https://4blf1emx.cdn.imgeng.in")'''
+    accept-ch = "sec-ch-viewport-width, sec-ch-width, sec-ch-dpr, ect"
+    link = "<https://bryansandbox.imgix.net/>; rel=preconnect"
+    permissions-policy = ''' ch-viewport-width=("https://bryansandbox.imgix.net"), ch-width=("https://bryansandbox.imgix.net"), ch-dpr=("https://bryansandbox.imgix.net"), ect=("https://bryansandbox.imgix.net")'''
+  for = "/imageengine"
+  [headers.values]
+    accept-ch = "sec-ch-viewport-width, sec-ch-width, sec-ch-dpr, ect"
+    link = "<https://4blf1emx.cdn.imgeng.in/>; rel=preconnect"
+    permissions-policy = ''' ch-viewport-width=("https://4blf1emx.cdn.imgeng.in"), ch-width=("https://4blf1emx.cdn.imgeng.in"), ch-dpr=("https://4blf1emx.cdn.imgeng.in"), ect=("https://4blf1emx.cdn.imgeng.in")'''

@@ -1,0 +1,13 @@
+[build]
+  command = "npm run build"
+  publish = ".next"
+
+[[plugins]]
+  package = "netlify-plugin-cypress"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+  accept-ch = "sec-ch-viewport-width, sec-ch-width, sec-ch-dpr, ect"
+  link = "<https://4blf1emx.cdn.imgeng.in/>; rel=preconnect"
+  permissions-policy = ''' ch-viewport-width=("https://4blf1emx.cdn.imgeng.in"), ch-width=("https://4blf1emx.cdn.imgeng.in"), ch-dpr=("https://4blf1emx.cdn.imgeng.in"), ect=("https://4blf1emx.cdn.imgeng.in")'''

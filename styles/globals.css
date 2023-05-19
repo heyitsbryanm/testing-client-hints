@@ -12,11 +12,6 @@ body {
 
 main {
   padding: 5rem 0;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
 code {
@@ -26,10 +21,14 @@ code {
   font-family: Menlo, Monaco, Lucida Console, Courier New, monospace;
 }
 
-.container {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+
+main {
+  max-width: 1360px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+img {
+  width: 100%;
 }
