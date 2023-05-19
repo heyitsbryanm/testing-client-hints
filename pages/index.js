@@ -16,6 +16,7 @@ export default function Home() {
           Get started by editing <code>pages/index.js</code>
         </p>
         <div><img src="https://4blf1emx.cdn.imgeng.in/wp-content/uploads/2022/04/c294e2aa-3c2f-d291-62d3-d487b4bd5309.png" sizes="50px"/></div>
+        <div><img src="http://bryansandbox.imgix.net/_static/images/img02.jpg?ch=Width,DPR" sizes="50px"/></div>
       </main>
 
       <Footer />
