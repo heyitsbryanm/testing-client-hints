@@ -11,6 +11,7 @@
     accept-ch = "sec-ch-viewport-width, sec-ch-width, sec-ch-dpr, ect"
     link = "<https://bryansandbox.imgix.net/>; rel=preconnect"
     permissions-policy = ''' ch-viewport-width=("https://bryansandbox.imgix.net"), ch-width=("https://bryansandbox.imgix.net"), ch-dpr=("https://bryansandbox.imgix.net"), ect=("https://bryansandbox.imgix.net")'''
+[[headers]]
   for = "/imageengine"
   [headers.values]
     accept-ch = "sec-ch-viewport-width, sec-ch-width, sec-ch-dpr, ect"
