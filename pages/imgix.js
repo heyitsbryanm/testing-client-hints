@@ -8,6 +8,7 @@ export default function Test() {
       <Head>
         <title>Next.js Starter!</title>
         <link rel="icon" href="/favicon.ico" />
+        <meta http-equiv="Accept-CH" content="DPR, Width, Viewport-Width"/>
       </Head>
 
       <main>
